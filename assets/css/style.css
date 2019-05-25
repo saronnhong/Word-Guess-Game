@@ -1,0 +1,28 @@
+body {
+    background-image: url("../images/dragon_wp.jpg");
+    background-size: 125%;
+    font-family: 'Crete Round', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    
+}
+.jumbotron {
+    margin-top: 50px;
+    width: 600px;
+    background-image: url("../images/white-waves.png");
+    background-repeat: repeat;
+    color: rgb(77, 74, 74);
+}
+h1 {
+    text-align: center;
+    
+}
+
+
+.jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+}
+#startButton {
+
+}
