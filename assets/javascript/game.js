@@ -6,7 +6,7 @@ var guessSoFarText = document.getElementById("guess-text");
 var endGameText = document.getElementById("endGameMessage-text");
 
 
-var gotDictArray = ["hodor", "arya", "robb", "jonsnow", "sansa", "ned", "catelyn", "theon", "rickon"];
+var gotDictArray = ["hodor", "arya", "robb", "jonsnow", "sansa", "eddard", "catelyn", "theon", "rickon", "tyrion", "jaime", "cersei", "tywin", "robin", "aegon", "maegor", "jaehaerys", "viserys", "daeron", "baelor", "aerys", "nymeria", "ghost", "summer", "shaggydog", "greywind", "lady", "joffrey", "khaldrogo", "daenerys"];
 var chosenWord = gotDictArray[Math.floor(Math.random() * gotDictArray.length)];
 var indivChar = chosenWord.split("");
 var answerArray = [];
@@ -34,7 +34,7 @@ function restart() {
     usedKeysArray.length = 0;
     correctGuessCount = 0;
     maxTry = 9;
-    var gotDictArray = ["hodor", "arya", "robb", "jonsnow", "sansa", "ned", "catelyn", "theon", "rickon", "tyrion", "jaime", "cersei", "tywin"];
+    var gotDictArray = ["hodor", "arya", "robb", "jonsnow", "sansa", "eddard", "catelyn", "theon", "rickon", "tyrion", "jaime", "cersei", "tywin", "robin", "aegon", "maegor", "jaehaerys", "viserys", "daeron", "baelor", "aerys", "nymeria", "ghost", "summer", "shaggydog", "greywind", "lady", "joffrey", "khaldrogo", "daenerys"];
     chosenWord = gotDictArray[Math.floor(Math.random() * gotDictArray.length)];
     indivChar = chosenWord.split("");
 
